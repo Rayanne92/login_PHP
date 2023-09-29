@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #E8E8E8;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul, li {
+    text-align: center;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin: 0 0 0.5rem 0;
+}
+
+input {
+    width: 17.5rem;
+    background-color: #F3F3F3;
+    border: 0.05rem solid #D1D5DB;
+    border-radius: 0.5rem;
+    padding: 0.35rem;
+    outline: none;
+    overflow: hidden;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 0.45rem 1.95rem;
+    border: 0.05rem solid #D1D5DB;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+button:hover {
+    background-color: #000;
+    color: #FFF;
+}
